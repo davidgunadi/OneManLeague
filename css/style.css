@@ -100,7 +100,7 @@ Showcase
 ---------------------------------------------------------*/
 #showcase {
     background: url('../img/bg.jpg') no-repeat center center/cover;
-    height: 60rem;
+    height: 55rem;
 }
 
 #showcase .container {
