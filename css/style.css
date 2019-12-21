@@ -1,0 +1,177 @@
+/*---------------------------------------------------------
+Reset
+---------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------------------------------------------
+Main Styling
+---------------------------------------------------------*/
+html, body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 0rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+/*---------------------------------------------------------
+Utility Classes
+---------------------------------------------------------*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 1.4rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+}
+
+.btn-light {
+    color: #333;
+    background: #f4f4f4;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 2.5rem;
+}
+
+/*---------------------------------------------------------
+Padding
+---------------------------------------------------------*/
+.py-1 {padding: 0.6rem; }
+.py-2 {padding: 1.2rem; }
+.py-3 {padding: 1.8rem; }
+
+
+/*---------------------------------------------------------
+Showcase
+---------------------------------------------------------*/
+#showcase {
+    background: url('../img/bg.jpg') no-repeat center center/cover;
+    height: 60rem;
+}
+
+#showcase .container {
+    max-width: 800px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align:center;
+    padding-top: 1rem;
+    height: 100%;
+}
+
+#showcase h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.record {
+    display: block;
+    padding: 3rem;
+}
+
+#showcase .image-left {
+    float: left;
+    width: 30%;
+}
+
+#showcase .score-right {
+    float: right;
+    width: 70%;
+}
+
+#showcase img {
+    width: 5rem;
+    border-radius: 50%;
+}
+    
+
+#showcase .showcase-content p {
+    padding-top: 1.5rem;
+    line-height: 2rem;
+}
+
+#showcase .record {
+    padding-left: 4rem;
+}
+
+/*---------------------------------------------------------
+Home Info
+---------------------------------------------------------*/
+#home-info {
+    height: 25rem;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 3rem 2rem;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    margin-bottom: 3rem;
+}
