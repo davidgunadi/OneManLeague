@@ -39,7 +39,7 @@ Content
 ---------------------------------------------------------*/
 #container {
     background: url('../img/bg.jpg') no-repeat center center/cover;
-    height: 55rem;
+    height: 100vh;
 }
 
 #title {
